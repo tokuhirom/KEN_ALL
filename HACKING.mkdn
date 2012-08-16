@@ -1,0 +1,17 @@
+HACKING
+=======
+
+依存
+----
+
+以下のモジュールを入れれば自前でビルドできます。
+
+    cpanm App::FatPacker Parse::JapanesePostalCode
+
+ビルド方法
+----------
+
+src/parse.pl がソースです。これを元に `ken_all.pl` が作成されます。./util/pack.sh を実行すれば創られます。
+
+./util/get.sh は `KEN_ALL.CSV` のダウンロードスクリプトです。
+
